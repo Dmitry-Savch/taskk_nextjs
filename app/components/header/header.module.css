@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+    background-color: #fff;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4vh;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.2rem;
+}
+
+.burgerMenu {
+    margin-left: auto;
+    display: none;
+    cursor: pointer;
+}
+
+.menuIcon, .closeIcon {
+    width: 32px;
+    height: 32px;
+}
+
+.closeIcon {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 9%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        padding: 20px;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .burgerMenu {
+        display: block;
+    }
+}
+

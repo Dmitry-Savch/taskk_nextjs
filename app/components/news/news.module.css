@@ -1,0 +1,40 @@
+.sidebar {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 32%;
+    box-sizing: border-box;
+}
+
+.sidebar H1 {
+    color: #ff8d49;
+    font-size: 38px;
+}
+
+.sidebar H2 {
+    color: white;
+    font-size: 24px;
+    margin-top: 25px;
+}
+
+.sidebar P {
+    font-size: 19px;
+    margin-top: 13px;
+    color: var(--text-news-color);
+}
+
+.sidebar Hr {
+    margin-top: 35px;
+    border: 1px solid white;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        gap: 13px;
+    }
+}
