@@ -41,7 +41,7 @@ const Layout = () => {
                     altText="Gaming Growth"
                     number={3}
                     title="The Growth of Gaming"
-                    description="How the pandemic has sparked fresh opportunities."
+                    description="How the pandemic has spaked fresh opportunities."
                 />
             </div>
         </div>
